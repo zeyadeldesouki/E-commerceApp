@@ -20,7 +20,7 @@ The Ecommerce Application is platform designed to allow users to browse products
 - **Product Catalog**: Browse products by category, price, or popularity.
 - **Shopping Cart**: Add/remove products and manage quantities.
 - **Checkout & Payments**: Integrated payment gateway for seamless transactions.
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
+- **Responsive Design**: Created an intuitive user interface following Material Design guidelines
 
 ---
 
