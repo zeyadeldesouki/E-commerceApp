@@ -5,7 +5,7 @@
 <h1 align="center">🛍️ Ecommerce App</h1>
 
 <p align="center">
-  A cross-platform e-commerce solution built with Flutter — clean architecture, multi-payment integration, and a seamless shopping experience.
+  A cross-platform e-commerce solution built with Flutter — MVVM, multi-payment integration, and a seamless shopping experience.
   <br />
   <br />
   <a href="#features"><strong>Explore Features »</strong></a>
@@ -23,7 +23,7 @@
 
 The **Ecommerce App** is a fully functional, cross-platform e-commerce platform designed to provide a seamless shopping experience. Built with **Flutter** and **Dart**, it allows users to browse products, manage a cart, authenticate securely, and complete purchases through integrated payment gateways.
 
-This project is ideal for developers looking for a production-ready foundation with **Clean Architecture**, **multi-payment support** (Stripe & PayPal), and a **scalable feature-first codebase**. Whether you're building a MVP or a full-scale store, this app gives you a solid head start.
+This project is ideal for developers looking for a production-ready foundation with **MVVM**, **multi-payment support** (Stripe & PayPal), and a **scalable feature-first codebase**. Whether you're building a MVP or a full-scale store, this app gives you a solid head start.
 
 ---
 
@@ -44,16 +44,12 @@ This project is ideal for developers looking for a production-ready foundation w
 
 ## 🏗️ Architecture
 
-The project follows **Clean Architecture** with a **feature-first** approach:
+The project follows **MVVM** with a **feature-first** approach:
 
 - **Separation of Concerns** — Each feature (auth, products, cart, checkout) is isolated with its own `data` and `presentation` layers.
 - **Dependency Inversion** — Core infrastructure (`core/`) provides shared utilities; features depend on abstractions, not concrete implementations.
 - **Testability** — Business logic is decoupled from UI, making unit testing straightforward.
 
-```
-Presentation Layer  →  Domain Layer  →  Data Layer
-     (UI/State)         (Entities)       (Repositories/Models)
-```
 
 ---
 
@@ -68,9 +64,8 @@ Presentation Layer  →  Domain Layer  →  Data Layer
 | **Payment Gateways** | Stripe (`flutter_stripe`), PayPal (`flutter_paypal_payment`) |
 | **HTTP Client** | Dio |
 | **State Management** | Feature-based (per-presentation manager) |
-| **Architecture** | Clean Architecture + Feature-First |
+| **Architecture** | MVVM + Feature-First |
 | **UI Design** | Material Design |
-| **Utilities** | dartz, freezed_annotation, json_annotation |
 
 ---
 
