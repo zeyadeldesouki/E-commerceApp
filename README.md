@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="assets/images/logo.png" alt="Ecommerce App Logo" width="120" height="120" />
-</p>
+</p> -->
 
 <h1 align="center">🛍️ Ecommerce App</h1>
 
